@@ -14,6 +14,7 @@ public class Item {
     private String itemName;
     private Integer itemPrice;
     private Integer itemAmount;
+    private String item_img_url;
     private Date lastUpdate;
     private Date firstAdd;
 }
