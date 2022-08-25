@@ -8,43 +8,29 @@ import javax.servlet.http.HttpSession;
 @Controller
 public class moveController {
 
-//    @GetMapping("/boardAdd")
-//    public String boardMove(){
-//        return "/boardAdd";
-//    }
-//    @GetMapping("/login")
-//    public String login(){
-//        return "login";
-//    }
-//    @GetMapping("/logout")
-//    public String logout(HttpSession session){
-//        session.invalidate();
-//        return "main";
-//    }
-    @GetMapping("/main")
-    public String main(){
-        return "main";
+
+    @GetMapping("/admin")
+    public String admin(){
+        return "admin";
     }
-//    @GetMapping("/main/search")
-//    public String searchMain(){
-//        return "main";
-//    }
-//    @GetMapping("/mainDetail")
-//    public String mainDetail(){
-//        return "mainDetail";
-//    }
-//    @GetMapping("/myPage")
-//    public String myPage(){
-//        return "myPage";
-//    }
-//    @GetMapping("/sign")
-//    public String sign(){
-//        return "/sign";
-//    }
-//    @GetMapping("/boardUpdate")
-//    public String boardUpdate() {return "/boardUpdate";}
-//    @GetMapping("/test/main")
-//    public String testMain() {
-//        return "/vue/boardSpa";
-//    }
+    @GetMapping("/basket")
+    public String basket(){
+        return "basket";
+    }
+    @GetMapping("/index")
+    public String index(){
+        return "index";
+    }
+    @GetMapping("/login")
+    public String login(){
+        return "login";
+    }
+    @GetMapping("/order")
+    public String order(){
+        return "order";
+    }
+    @GetMapping("/signup")
+    public String signup(){
+        return "signup";
+    }
 }

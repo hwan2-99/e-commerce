@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Login</title>
+    <link th:href="@{/css/style.css}" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="logo-wrapper">
+        <h1>E-Commerce</h1>
+      </div>
+      <div class="body-wrapper">
+        <h1>회원가입 하기</h1>
+        <hr />
+        <form>
+          <label>아이디 : </label>
+          <input name="id" type="text" placeholder="아이디를 입력하세요." />
+          <br />
+          <label>비밀번호 : </label>
+          <input
+            name="password"
+            type="password"
+            placeholder="비밀번호를 입력하세요."
+          />
+          <br />
+          <label>이름 : </label>
+          <input name="id" type="text" placeholder="이름을 입력하세요." />
+          <br />
+          <button type="submit">회원가입 하기</button>
+          <br />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
