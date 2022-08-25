@@ -12,6 +12,10 @@ public class UserService {
 	@Autowired
 	private UserMapper userMapper;
 	
+	public int signUpServcie(UserDto.SignUp signUpDto) {
+		return userMapper.insertUser(signUpDto.getId(), signUpDto.getPassword(), signUpDto.getName());
+	}
+	
 	public User loginService(UserDto.Login loginDto) {
 		return userMapper.findUserByIdAndPassword(loginDto.getId(), loginDto.getPassword());
 	}

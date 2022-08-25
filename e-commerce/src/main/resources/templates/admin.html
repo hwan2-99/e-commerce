@@ -1,16 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>어드민 페이지</title>
+    <title>E-Commerce ADMIN</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link th:href="@{/css/style.css}" rel="stylesheet" type="text/css"/>
   </head>
   <body>
-    <h1>자격 증명</h1>
-    <li>관리자</li>
-    <li>물건 추가, 수정 / 물건 주문 조회</li>
+    <div class="wrapper">
+      <div class="logo-wrapper">
+        <h1>E-Commerce ADMIN</h1>
+      </div>
+      <div>
+        <hr />
+        <form>
+          <label>제품명 : </label>
+          <input name="item_name" type="text"/>
+          <br/>
+          <label>가격 : </label>
+          <input name="item_price" type="text"/>
+          <br/>
+          <label>수량 : </label>
+          <input name="item_amount" type="number" min="1" value="1"/>
+          <br/>
+          <label>이미지 링크 : </label>
+          <input name="item_img_url" type="text"/>
+          <br/>
+          <input type="submit" />
+        </form>
+      </div>
+      <div>
+        <section class="body-wrapper">
+          <h1>주문된 아이템 목록</h1>
+          <hr />
+          <article class="item-wrapper">
+            <!-- item-small이 flex 아이템임 -->
+            <div class="item-small">
+              <img src="https://m.coreattiz.com/data/goods/22/04/16/1000000198/1000000198_detail_631.jpg" alt=""></img>
+              <h5> 제품 명 </h5>
+              <div class="info">
+                <p><b> 가격 </b> : 23000 원</p>
+                <p><b> 수량 </b> : 2개 </p>
+              </div>
+            </div>
+            
+          </article>
+        </section>
+      </div>
+    </div>
   </body>
 </html>

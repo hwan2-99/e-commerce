@@ -9,6 +9,10 @@
 	<select id = "findUserByIdAndPassword" resultType="dn2.ecommerce.global.entity.User">
 		SELECT * FROM user WHERE id = #{id} AND password = #{password};
 	</select>
+		
+	<insert id="insertUser">
+		INSERT INTO user (id,password,name) VALUES (#{id}, #{password}, #{name});
+	</insert>
 	
 <!--	~examples~
 

@@ -13,6 +13,8 @@ public interface UserMapper {
 	
 // CREATE
 	
+	public int insertUser(@Param("id") String id, @Param("password") String password, @Param("name") String name);
+	
 // READ
 	public User findUserByIdAndPassword(@Param("id") String id, @Param("password") String password);
 	
