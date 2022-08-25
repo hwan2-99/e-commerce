@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>e-commerce.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="logo-wrapper">
+        <h1>E-Commerce</h1>
+      </div>
+      <div class="nav-wrapper">
+        <nav class="nav-flex">
+          <item onClick="document.location.href='login.html'">Login</item>
+          <item onClick="document.location.href='basket.html'">Basket</item>
+          <item onClick="document.location.href='order.html'">Order</item>
+        </nav>
+      </div>
+      <div>
+        <section class="body-wrapper">
+          <h1>인기 아이템 목록</h1>
+          <hr />
+          <article class="item-wrapper">
+            <!-- item-small이 flex 아이템임 -->
+            <div class="item-small">
+              <img src="https://m.coreattiz.com/data/goods/22/04/16/1000000198/1000000198_detail_631.jpg" alt=""></img>
+              <h5> 제품 명 </h5>
+              <div class="info">
+                <p><b> 가격 </b> : 23000 원</p>
+                <input type="number" value="1" min="1" max="9"/>
+                <button id="basket"> 장바구니 담기 </button>
+              </div>
+            </div>
+            
+          </article>
+          <h1>최근 추가된 아이템 목록</h1>
+          <hr />
+          <article class="item-wrapper">
+            <div class="item-small">
+              <img src="https://m.coreattiz.com/data/goods/22/04/16/1000000198/1000000198_detail_631.jpg" alt=""></img>
+              <div class="info">
+                <p> 제품 명 </p>
+                <p><b> 가격 </b> : 23000 원</p>
+                <button id="basket"> 장바구니 담기 </button>
+              </div>
+            </div>
+          </article>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
