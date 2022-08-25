@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52bef846-e859-4fbd-9cf3-9a16c29d2bc3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/e-commerce/src/main/java/dn2/ecommerce/domain/item/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commerce/src/main/java/dn2/ecommerce/domain/item/ItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-commerce/src/main/java/dn2/ecommerce/ECommerceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/e-commerce/src/main/java/dn2/ecommerce/ECommerceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-commerce/src/main/java/dn2/ecommerce/domain/admin/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-commerce/src/main/java/dn2/ecommerce/domain/admin/mapper/ItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-commerce/src/main/java/dn2/ecommerce/domain/admin/repository/ItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-commerce/src/main/java/dn2/ecommerce/domain/admin/repository/ItemDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-commerce/src/main/java/dn2/ecommerce/domain/admin/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-commerce/src/main/java/dn2/ecommerce/domain/admin/service/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-commerce/src/main/java/dn2/ecommerce/domain/item/ItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-commerce/src/main/resources/mapper/ItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e-commerce/src/main/java/dn2/ecommerce/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e-commerce/src/main/java/dn2/ecommerce/domain/item/ItemRepository.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +43,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -51,6 +61,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringStudy/item-service" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
